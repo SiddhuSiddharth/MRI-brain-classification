@@ -1,2 +1,3 @@
 # MRI-brain-classification
-Deep Learning CA1 package
+
+This process aims to classify what the 
