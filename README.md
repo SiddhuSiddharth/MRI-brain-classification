@@ -20,12 +20,12 @@ Obviously in order to create a model we need numbers. Computer Vision helps us c
 
 In this portion, we create an ANN, with 2 ReLu hidden layers and 1 softmax hidden layer and calculate loss functions in terms MAE and MSE. But we default to using MSE for the time being. The Flatten function in front of the dense layers is to resize the image every time we pass the input stream of vectors. This is the result obtained after 50 iterations.
 
-<img width="260" alt="image" src="https://user-images.githubusercontent.com/98100916/218331194-b0be6558-fc9c-4141-92e2-938be6988b4f.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/98100916/218331194-b0be6558-fc9c-4141-92e2-938be6988b4f.png">
 
 # Convolutional Neural Network
 
 The $R^2$ value of ANN is consistently high, usually ranging from 0.6 to 0.9 after multiple different sets of iterations. In order to reduce that we introduce CNN as an alternative. The main advantage of CNN is it provides better loss scores for the same no. of iterations. But the cost of 1 iteration is also large. At the end a graph is plotted of actual values vs predicted values for CNN.
 
-<img width="260" alt="image" src="https://user-images.githubusercontent.com/98100916/218331526-226a8545-f9a4-4680-b21d-34104b0be8c2.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/98100916/218331526-226a8545-f9a4-4680-b21d-34104b0be8c2.png">
 
 This is way better than ANN results.
